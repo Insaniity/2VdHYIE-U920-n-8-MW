@@ -16,7 +16,7 @@ client.on('message', message => {
   if (message.content.startsWith("*leaks")) {
       message.channel.send({embed: {
       title: 'Leaks',
-      description: 'Latest update 07/12/17 | Discord: [https://discord.gg/6cCWCPW](https://discord.gg/6cCWCPW)',
+      description: 'Latest update 24/12/17 | Discord: [https://discord.gg/47we2mT](https://discord.gg/47we2mT)',
       fields: [
         {
           name: 'List of current leaks',
@@ -26,7 +26,7 @@ client.on('message', message => {
       timestamp: new Date(),
       footer: {
         icon_url: client.user.avatarURL,
-        text: 'LeakedSource'
+        text: 'Dino, LeakedSource'
       }
     }});
   }
